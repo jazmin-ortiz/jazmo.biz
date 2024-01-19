@@ -1,3 +1,22 @@
+
+body {
+    background-color: var(--color-secondary);
+    color: var(--color-font);
+}
+
+a {
+    color: var(--color-font-secondary);
+}
+
+a:hover {
+    color: var(--color-font-secondary);
+    background-color: var(--color-secondary);
+}
+
+.welcome-header {
+    background-color: var(--color-primary);
+}
+
 .carousel {
     max-width: 500px;
 }
